@@ -28,7 +28,7 @@ images/   # Placeholder astronomy images
 NASA Astronomy Picture of the Day (APOD): https://apod.nasa.gov
 
 ## Portfolio Note
-This project highlights:
+This project highlights
 
 - Technical documentation skills
 - API integration walkthroughs
