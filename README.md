@@ -35,7 +35,6 @@ This project highlights
 - Simulation of live APIs for safe public hosting
 
 ## Screenshots
-## Screenshots
 
 **PowerShell Example**  
 ![PowerShell Example](screenshots/Powershell%20example.png)
