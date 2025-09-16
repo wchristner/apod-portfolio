@@ -2,140 +2,140 @@
   {
     "title": "Galaxy Cluster",
     "date": "2025-01-01",
-    "explanation": "A beautiful galaxy cluster captured by the Hubble telescope.",
-    "url": "images/Galaxy Cluste.jpg",
+    "explanation": "This galaxy cluster is a gravitational powerhouse, consisting of hundreds of galaxies bound together by dark matter and hot intergalactic gas. As light from more distant galaxies travels through the cluster, its path is bent by the immense gravity in a process called gravitational lensing. These cosmic magnifying effects allow astronomers to study galaxies too faint to be observed directly, pushing the limits of how far we can see into the early universe.",
+    "url": "images/Galaxy Cluster.jpg",
     "media_type": "image"
   },
   {
     "title": "Nebula Explosion",
     "date": "2025-01-02",
-    "explanation": "A colorful nebula explosion in deep space.",
+    "explanation": "A stellar explosion leaves behind this brilliant nebula, a cloud of ionized gas expanding outward into space. The explosion not only lights up the nebula but also seeds the surrounding galaxy with heavy elements like oxygen, carbon, and iron. These materials, forged in the heart of the dying star, are essential ingredients for forming new planets and even life itself. This colorful aftermath is both an end and a beginning in the cosmic cycle of matter.",
     "url": "images/Nebula Explosion.jpg",
     "media_type": "image"
   },
   {
     "title": "Star Formation",
     "date": "2025-01-03",
-    "explanation": "Stars being born in a dense cloud of gas and dust.",
+    "explanation": "Deep within molecular clouds, gravity pulls dense knots of gas and dust together to form stars. Ultraviolet radiation from newborn stars erodes the surrounding material, creating cavities and pillars while triggering further star birth nearby. These stellar nurseries are among the most dynamic regions in space, with jets of gas shooting outward at supersonic speeds and shockwaves carving the clouds into intricate shapes.",
     "url": "images/Star Formation.jpg",
     "media_type": "image"
   },
   {
     "title": "Andromeda Galaxy",
     "date": "2025-01-04",
-    "explanation": "The closest spiral galaxy to our Milky Way.",
+    "explanation": "The Andromeda Galaxy (M31) is our nearest spiral galaxy neighbor, located about 2.5 million light-years away. Containing over a trillion stars, it dwarfs our Milky Way in size. On a clear night, Andromeda is visible to the naked eye as a faint smudge. In roughly 4 billion years, gravitational attraction will bring the Milky Way and Andromeda into a colossal galactic merger, reshaping both galaxies into a single elliptical giant.",
     "url": "images/Andromeda Galaxy.jpg",
     "media_type": "image"
   },
   {
     "title": "Supernova Remnant",
     "date": "2025-01-05",
-    "explanation": "The remains of a massive star that exploded.",
+    "explanation": "This remnant marks the explosive death of a massive star. The shockwaves from the blast spread through interstellar space, compressing and energizing gas and dust. Astronomers study these remnants to learn how elements heavier than hydrogen and helium are created and distributed throughout galaxies. Without such explosions, planets and even human beings — made of heavier elements like iron and calcium — could not exist.",
     "url": "images/Supernova Remnant.jpg",
     "media_type": "image"
   },
   {
     "title": "Planetary Nebula",
     "date": "2025-01-06",
-    "explanation": "A glowing shell of ionized gas ejected from red giant stars.",
+    "explanation": "Planetary nebulae form when medium-sized stars like our Sun shed their outer layers at the end of their lives. What remains is a glowing shell of gas surrounding the hot stellar core, now a white dwarf. The colorful patterns result from ultraviolet radiation energizing different gases, producing hues of green (oxygen), red (nitrogen), and blue (helium). Planetary nebulae remind us of our Sun’s eventual fate billions of years from now.",
     "url": "images/Planetary Nebula.jpg",
     "media_type": "image"
   },
   {
     "title": "Comet Trail",
     "date": "2025-01-07",
-    "explanation": "A comet passing close to the Sun leaving a spectacular trail.",
+    "explanation": "This image shows a comet streaming through the inner solar system. As it approaches the Sun, heat vaporizes frozen gases in its nucleus, releasing dust and forming a tail that can stretch millions of miles. The bright ion tail points directly away from the Sun, shaped by the solar wind, while the dust tail curves gently along the comet’s orbit. Comets are relics from the solar system’s formation, carrying primordial material billions of years old.",
     "url": "images/Comet Trail.jpg",
     "media_type": "image"
   },
   {
     "title": "Milky Way Core",
     "date": "2025-01-08",
-    "explanation": "The dense, bright core of our galaxy.",
+    "explanation": "The Milky Way’s core, located about 27,000 light-years away in the constellation Sagittarius, is a densely packed region containing millions of stars and clouds of interstellar gas. At its heart lies Sagittarius A*, a supermassive black hole with a mass about 4 million times that of the Sun. Although dust obscures most visible light, infrared and radio observations reveal a turbulent environment where stars orbit at incredible speeds.",
     "url": "images/Milky Way Core.jpg",
     "media_type": "image"
   },
   {
     "title": "Aurora Borealis",
     "date": "2025-01-09",
-    "explanation": "Northern lights dancing across the polar skies.",
+    "explanation": "The northern lights, or aurora borealis, appear when charged particles from solar winds collide with atoms in Earth’s upper atmosphere. These interactions energize gases like oxygen and nitrogen, causing them to glow in shades of green, purple, and red. Auroras are strongest near the magnetic poles and during periods of intense solar activity, offering breathtaking natural light shows that connect Earth directly to solar dynamics.",
     "url": "images/Aurora Borealis.jpg",
     "media_type": "image"
   },
   {
     "title": "Mars Surface",
     "date": "2025-01-10",
-    "explanation": "A breathtaking view of the red planet's terrain.",
+    "explanation": "This Martian landscape reveals towering volcanoes, such as Olympus Mons, the largest in the solar system, and Valles Marineris, a canyon system stretching over 2,500 miles. The surface is blanketed in fine red dust rich in iron oxide. Robotic rovers have found evidence of ancient riverbeds, lakebeds, and minerals that form in water, suggesting that Mars was once far more Earth-like and may have been habitable.",
     "url": "images/Mars Surface.jpg",
     "media_type": "image"
   },
   {
     "title": "Jupiter Storm",
     "date": "2025-01-11",
-    "explanation": "The giant storm on Jupiter, known as the Great Red Spot.",
+    "explanation": "Jupiter’s Great Red Spot is an anticyclonic storm larger than Earth, raging for at least 350 years. Winds within the storm can reach speeds over 400 mph. This iconic feature is part of Jupiter’s complex atmosphere, which is dominated by swirling bands of ammonia clouds, jet streams, and other turbulent storms. Observations of the Great Red Spot provide insight into planetary weather systems and long-term atmospheric stability.",
     "url": "images/Jupiter Storm.jpg",
     "media_type": "image"
   },
   {
     "title": "Saturn Rings",
     "date": "2025-01-12",
-    "explanation": "The beautiful rings of Saturn captured in detail.",
+    "explanation": "Saturn’s rings are made mostly of water ice, with some dust and rocky debris. Though they span more than 170,000 miles, the rings are astonishingly thin — only about 30 feet thick in places. Scientists believe the rings may be remnants of shattered moons or comets that wandered too close to Saturn. They are dynamic, with waves and ripples caused by gravitational interactions with Saturn’s moons.",
     "url": "images/Saturn Rings.jpg",
     "media_type": "image"
   },
   {
     "title": "Lunar Surface",
     "date": "2025-01-13",
-    "explanation": "Craters and mountains on the Moon's surface.",
+    "explanation": "The Moon’s surface is marked by craters from billions of years of impacts, volcanic plains called maria, and rugged highlands. With no atmosphere to protect it, the lunar landscape is preserved as a historical record of the solar system’s violent past. Astronauts from the Apollo missions collected rock samples here, helping scientists understand planetary formation and evolution.",
     "url": "images/Lunar Surface.jpg",
     "media_type": "image"
   },
   {
     "title": "Venus Cloud Tops",
     "date": "2025-01-14",
-    "explanation": "The thick, cloudy atmosphere of Venus.",
+    "explanation": "Venus is shrouded in dense clouds of carbon dioxide and sulfuric acid droplets, which reflect sunlight and make it the brightest planet in Earth’s skies. Its thick atmosphere traps heat in a runaway greenhouse effect, raising surface temperatures to about 900°F, hotter than Mercury despite being farther from the Sun. Winds at the cloud tops blow at hurricane speeds, circling the planet in just four Earth days.",
     "url": "images/Venus Cloud Tops.jpg",
     "media_type": "image"
   },
   {
     "title": "Solar Prominence",
     "date": "2025-01-15",
-    "explanation": "A dramatic loop of plasma erupting from the Sun.",
+    "explanation": "A solar prominence is a massive arc of plasma erupting from the Sun’s surface, shaped by magnetic fields. These features can extend tens of thousands of miles into space. Some prominences collapse back onto the Sun, while others release clouds of charged particles that can trigger geomagnetic storms on Earth, disrupting satellites, power grids, and communications.",
     "url": "images/Solar Prominence.jpg",
     "media_type": "image"
   },
   {
     "title": "Eclipse Shadow",
     "date": "2025-01-16",
-    "explanation": "The Moon casting its shadow during a solar eclipse.",
+    "explanation": "During a total solar eclipse, the Moon’s shadow sweeps across Earth, briefly blocking out the Sun. This rare alignment allows astronomers and the public to see the Sun’s corona — its outer atmosphere — which streams outward in delicate, glowing structures shaped by solar magnetism. Eclipses have inspired awe for millennia and remain vital opportunities for solar science.",
     "url": "images/Eclipse Shadow.jpg",
     "media_type": "image"
   },
   {
     "title": "Asteroid Belt",
     "date": "2025-01-17",
-    "explanation": "A cluster of rocky objects orbiting the Sun between Mars and Jupiter.",
+    "explanation": "The asteroid belt lies between Mars and Jupiter, containing millions of rocky bodies that never coalesced into a planet due to Jupiter’s strong gravity. While often depicted as crowded, the belt is mostly empty space. Some of its largest members, like Ceres and Vesta, are worlds in their own right. Studying asteroids helps us understand the early solar system and provides potential targets for future mining or exploration.",
     "url": "images/Asteroid Belt.jpg",
     "media_type": "image"
   },
   {
     "title": "Exoplanet Transit",
     "date": "2025-01-18",
-    "explanation": "A distant planet passing in front of its host star.",
+    "explanation": "Exoplanets are often discovered when they pass in front of their parent stars, causing a tiny dip in the star’s brightness. These transits not only reveal a planet’s size and orbit but can also expose its atmosphere, as starlight filters through and leaves spectral fingerprints. Such methods have uncovered thousands of alien worlds, ranging from rocky Earth-like planets to gas giants hotter than stars.",
     "url": "images/Exoplanet Transit.jpg",
     "media_type": "image"
   },
   {
     "title": "Black Hole Accretion",
     "date": "2025-01-19",
-    "explanation": "Matter swirling around a black hole emitting powerful energy.",
+    "explanation": "Material falling into a black hole forms an accretion disk, where friction and gravity heat the gas to millions of degrees. As matter spirals inward, it emits intense X-rays before crossing the event horizon. Some black holes also launch powerful relativistic jets that extend thousands of light-years, blasting energy into surrounding space. These extreme environments test the very limits of physics.",
     "url": "images/Black Hole Accretion.jpg",
     "media_type": "image"
   },
   {
     "title": "Cosmic Nebula",
     "date": "2025-01-20",
-    "explanation": "A colorful nebula formed by gases and dust in space.",
+    "explanation": "Nebulae are enormous clouds of gas and dust that can span hundreds of light-years. Some, like the Orion Nebula, are stellar nurseries where new stars are born, while others are remnants of supernovae. Their vibrant colors are caused by gases like hydrogen and oxygen glowing under ultraviolet radiation. These breathtaking structures remind us of the dynamic, ever-changing nature of the universe.",
     "url": "images/Cosmic Nebula.jpg",
     "media_type": "image"
   }
