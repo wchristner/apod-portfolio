@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NASA APOD API – Portfolio Project (Simulated)</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #4b0082;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    color: #fff;
+  }
+  .container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  h2 {
+    color: #ffcc00;
+  }
+  .tabs {
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .tab {
+    padding: 10px 20px;
+    background-color: #2c2c3f;
+    border: 1px solid #4b0082;
+    margin-right: 2px;
+    border-radius: 5px 5px 0 0;
+  }
+  .tab.active {
+    background-color: #4b0082;
+    font-weight: bold;
+  }
+  .tab-content {
+    border: 1px solid #4b0082;
+    padding: 15px;
+    border-radius: 0 5px 5px 5px;
+    display: none;
+    background-color: #2c2c3f;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  pre {
+    background-color: #1e1e2f;
+    color: #00ffcc;
+    padding: 10px;
+    overflow-x: auto;
+  }
+  img {
+    max-width: 100%;
+    margin-top: 10px;
+    border: 2px solid #4b0082;
+    border-radius: 5px;
+  }
+  .apod-output {
+    text-align: center;
+    margin-top: 20px;
+  }
+  button {
+    background-color: #ffcc00;
+    color: #1e1e2f;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  button:hover {
+    background-color: #ffaa00;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>NASA Astronomy Picture of the Day – Simulated Demo</h1>
+</header>
+
+<div class="container">
+
+  <h2>Project Overview</h2>
+  <p>This project demonstrates how a NASA APOD viewer works by simulating random astronomy pictures using local images and JSON data. This portfolio piece showcases technical writing, clear instructions, sample code, and visual outputs.</p>
+
+  <h2>Setup Instructions</h2>
+  <ul>
+    <li>Windows 11</li>
+    <li>Web browser for HTML/JS example</li>
+    <li>Local folder containing images (/images) and JSON data (/data/apod-data.json)</li>
+  </ul>
+
+  <h2>Usage Examples</h2>
+  <div class="tabs">
+    <div class="tab active" data-tab="powershell">PowerShell</div>
+    <div class="tab" data-tab="python">Python</div>
+    <div class="tab" data-tab="javascript">JavaScript</div>
+  </div>
+
+  <div class="tab-content active" id="powershell">
+    <h3>PowerShell Example</h3>
+    <pre>
+# Simulated example using local JSON
+$response = Get-Content "data/apod-data.json" | ConvertFrom-Json
+$response | ConvertTo-Json -Depth 5
+    </pre>
+  </div>
+
+  <div class="tab-content" id="python">
+    <h3>Python Example</h3>
+    <pre>
+import json
+
+with open("data/apod-data.json") as f:
+    data = json.load(f)
+
+print(data[0]["title"])
+print(data[0]["date"])
+print(data[0]["explanation"])
+print(data[0]["url"])
+    </pre>
+  </div>
+
+  <div class="tab-content" id="javascript">
+    <h3>JavaScript Example</h3>
+    <pre>
+// Simulated APOD fetch using local JSON
+fetch("data/apod-data.json")
+  .then(res => res.json())
+  .then(data => console.log(data));
+    </pre>
+  </div>
+
+  <h2>Live Random Image Viewer</h2>
+  <div class="apod-output">
+    <p>Click below to load a random NASA Astronomy Picture of the Day (simulated).</p>
+    <button id="loadApod">Get Random NASA Image</button>
+    <h2 id="title"></h2>
+    <img id="apodImage" src="images/placeholder.jpg" alt="NASA APOD">
+    <p id="description"></p>
+  </div>
+
+</div>
+
+<script>
+  // Tab switching
+  const tabs = document.querySelectorAll('.tab');
+  const contents = document.querySelectorAll('.tab-content');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => c.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Random APOD Button Logic (simulated)
+  const btn = document.getElementById("loadApod");
+  const imgElement = document.getElementById("apodImage");
+  const titleElement = document.getElementById("title");
+  const descElement = document.getElementById("description");
+
+  async function getRandomImage() {
+    try {
+      btn.disabled = true;
+      btn.textContent = "Loading...";
+
+      const response = await fetch("data/apod-data.json");
+      const data = await response.json();
+
+      const randomApod = data[Math.floor(Math.random() * data.length)];
+
+      imgElement.src = randomApod.url;
+      titleElement.textContent = randomApod.title;
+      descElement.textContent = randomApod.explanation;
+
+    } catch (error) {
+      console.error("Error loading local data:", error);
+      titleElement.textContent = "Error loading image";
+      descElement.textContent = "";
+      imgElement.src = "images/placeholder.jpg";
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Get Random NASA Image";
+    }
+  }
+
+  btn.addEventListener("click", getRandomImage);
+
+  // Load one image on page load
+  getRandomImage();
+</script>
+
+</body>
+</html>
