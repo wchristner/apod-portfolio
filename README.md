@@ -24,50 +24,6 @@ data/
 
 images/   # Placeholder astronomy images
 
-## Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/apod-portfolio.git
-cd apod-portfolio
-
-## Example Entry
-```json
-{
-  "title": "Galaxy Cluster",
-  "date": "2025-01-01",
-  "explanation": "This galaxy cluster contains hundreds of galaxies bound together by gravity. The immense mass warps space-time, acting as a gravitational lens that magnifies background galaxies, helping astronomers study the distant universe.",
-  "url": "images/Galaxy Cluster.jpg",
-  "media_type": "image"
-}
-
-## Working with the Real NASA API
-
-To use NASA's live APOD API:
-
-1. Get a free API key: https://api.nasa.gov
-2. Replace the local JSON fetch in `script.js` with:
-
-```javascript
-const response = await fetch("https://api.nasa.gov/planetary/apod?count=1&api_key=<YOUR_API_KEY>");
-const data = await response.json();
-
-## Portfolio Note
-
-This project demonstrates:
-- Technical documentation skills
-- API integration walkthroughs
-- Web development (HTML, CSS, JS)
-- Simulation of live APIs for safe public hosting
-
-## Screenshots
-
-**PowerShell Example**  
-![PowerShell Example](screenshots/Powershell%20example.png)
-
-**Python Example**  
-![Python Example](screenshots/Python%20example.png)
-
-**JavaScript Example**  
-![JavaScript Example](screenshots/javascript%20example.png)
+## Credits
+NASA Astronomy Picture of the Day (APOD): https://apod.nasa.gov
 
