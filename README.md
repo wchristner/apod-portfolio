@@ -60,4 +60,14 @@ This project demonstrates:
 - Web development (HTML, CSS, JS)
 - Simulation of live APIs for safe public hosting
 
+## Screenshots
+
+**PowerShell Example**  
+![PowerShell Example](screenshots/Powershell%20example.png)
+
+**Python Example**  
+![Python Example](screenshots/Python%20example.png)
+
+**JavaScript Example**  
+![JavaScript Example](screenshots/javascript%20example.png)
 
