@@ -27,3 +27,10 @@ images/   # Placeholder astronomy images
 ## Credits
 NASA Astronomy Picture of the Day (APOD): https://apod.nasa.gov
 
+## Portfolio Note
+This project highlights:
+
+- Technical documentation skills
+- API integration walkthroughs
+- Web development (HTML, CSS, JS)
+- Simulation of live APIs for safe public hosting
