@@ -4,6 +4,8 @@ This project demonstrates how to work with NASA's Astronomy Picture of the Day (
 It is part of a technical writing and development portfolio to showcase documentation skills, clear code samples, and interactive web output.
 
 ---
+URL: https://wchristner.github.io/apod-portfolio/
+---
 
 ##  Project Overview
 - Fetches and displays **random astronomy pictures** (simulated with JSON).  
