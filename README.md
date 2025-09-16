@@ -22,6 +22,23 @@ apod-portfolio/
 data/  
     - apod-data.json # Sample APOD entries (20 total)
 
+## Working with the Real NASA API    
+To use NASA's live APOD API:
+Get a free API key: https://api.nasa.gov    
+Replace the local JSON fetch in script.js with:    
+<pre> javascript const response = await fetch("https://api.nasa.gov/planetary/apod?count=1&api_key=<YOUR_API_KEY>"); const data = await response.json(); </pre>
+
+Note: Do not expose API keys in public repositories. Use environment variables or a backend proxy for security
+
+## Example json entry
+<pre>  {
+  "title": "Galaxy Cluster",
+  "date": "2025-01-01",
+  "explanation": "This galaxy cluster contains hundreds of galaxies bound together by gravity. The immense mass warps space-time, acting as a gravitational lens that magnifies background galaxies, helping astronomers study the distant universe.",
+  "url": "images/Galaxy Cluster.jpg",
+  "media_type": "image"
+}
+</pre>
 
 ## Credits
 NASA Astronomy Picture of the Day (APOD): https://apod.nasa.gov
