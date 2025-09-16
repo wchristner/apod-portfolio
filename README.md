@@ -22,7 +22,6 @@ apod-portfolio/
 data/  
     - apod-data.json # Sample APOD entries (20 total)
 
-images/   # Placeholder astronomy images
 
 ## Credits
 NASA Astronomy Picture of the Day (APOD): https://apod.nasa.gov
@@ -34,3 +33,15 @@ This project highlights
 - API integration walkthroughs
 - Web development (HTML, CSS, JS)
 - Simulation of live APIs for safe public hosting
+
+## Screenshots
+## Screenshots
+
+**PowerShell Example**  
+![PowerShell Example](screenshots/Powershell%20example.png)
+
+**Python Example**  
+![Python Example](screenshots/Python%20example.png)
+
+**JavaScript Example**  
+![JavaScript Example](screenshots/javascript%20example.png)
