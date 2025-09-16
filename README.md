@@ -44,4 +44,4 @@ This project highlights
 ![Python Example](screenshots/Python%20example.png)
 
 **JavaScript Example**  
-![JavaScript Example](screenshots/javascript%20example.png)
+![Javascript Example](screenshots/Javascript%20example.png)
