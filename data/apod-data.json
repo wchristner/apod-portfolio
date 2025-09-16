@@ -1,1 +1,142 @@
-
+[
+  {
+    "title": "Galaxy Cluster",
+    "date": "2025-01-01",
+    "explanation": "A beautiful galaxy cluster captured by the Hubble telescope.",
+    "url": "images/Galaxy Cluste.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Nebula Explosion",
+    "date": "2025-01-02",
+    "explanation": "A colorful nebula explosion in deep space.",
+    "url": "images/Nebula Explosion.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Star Formation",
+    "date": "2025-01-03",
+    "explanation": "Stars being born in a dense cloud of gas and dust.",
+    "url": "images/Star Formation.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Andromeda Galaxy",
+    "date": "2025-01-04",
+    "explanation": "The closest spiral galaxy to our Milky Way.",
+    "url": "images/Andromeda Galaxy.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Supernova Remnant",
+    "date": "2025-01-05",
+    "explanation": "The remains of a massive star that exploded.",
+    "url": "images/Supernova Remnant.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Planetary Nebula",
+    "date": "2025-01-06",
+    "explanation": "A glowing shell of ionized gas ejected from red giant stars.",
+    "url": "images/Planetary Nebula.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Comet Trail",
+    "date": "2025-01-07",
+    "explanation": "A comet passing close to the Sun leaving a spectacular trail.",
+    "url": "images/Comet Trail.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Milky Way Core",
+    "date": "2025-01-08",
+    "explanation": "The dense, bright core of our galaxy.",
+    "url": "images/Milky Way Core.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Aurora Borealis",
+    "date": "2025-01-09",
+    "explanation": "Northern lights dancing across the polar skies.",
+    "url": "images/Aurora Borealis.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Mars Surface",
+    "date": "2025-01-10",
+    "explanation": "A breathtaking view of the red planet's terrain.",
+    "url": "images/Mars Surface.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Jupiter Storm",
+    "date": "2025-01-11",
+    "explanation": "The giant storm on Jupiter, known as the Great Red Spot.",
+    "url": "images/Jupiter Storm.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Saturn Rings",
+    "date": "2025-01-12",
+    "explanation": "The beautiful rings of Saturn captured in detail.",
+    "url": "images/Saturn Rings.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Lunar Surface",
+    "date": "2025-01-13",
+    "explanation": "Craters and mountains on the Moon's surface.",
+    "url": "images/Lunar Surface.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Venus Cloud Tops",
+    "date": "2025-01-14",
+    "explanation": "The thick, cloudy atmosphere of Venus.",
+    "url": "images/Venus Cloud Tops.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Solar Prominence",
+    "date": "2025-01-15",
+    "explanation": "A dramatic loop of plasma erupting from the Sun.",
+    "url": "images/Solar Prominence.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Eclipse Shadow",
+    "date": "2025-01-16",
+    "explanation": "The Moon casting its shadow during a solar eclipse.",
+    "url": "images/Eclipse Shadow.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Asteroid Belt",
+    "date": "2025-01-17",
+    "explanation": "A cluster of rocky objects orbiting the Sun between Mars and Jupiter.",
+    "url": "images/Asteroid Belt.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Exoplanet Transit",
+    "date": "2025-01-18",
+    "explanation": "A distant planet passing in front of its host star.",
+    "url": "images/Exoplanet Transit.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Black Hole Accretion",
+    "date": "2025-01-19",
+    "explanation": "Matter swirling around a black hole emitting powerful energy.",
+    "url": "images/Black Hole Accretion.jpg",
+    "media_type": "image"
+  },
+  {
+    "title": "Cosmic Nebula",
+    "date": "2025-01-20",
+    "explanation": "A colorful nebula formed by gases and dust in space.",
+    "url": "images/Cosmic Nebula.jpg",
+    "media_type": "image"
+  }
+]
